@@ -3,7 +3,7 @@
 		<uni-section title="插入模式" type="line"></uni-section>
 		<view>
 			<uni-calendar class="uni-calendar--hook" :selected="info.selected" :showMonth="false" @change="change"
-				:range='range' @monthSwitch="monthSwitch" :startDate="startDate" />
+				@monthSwitch="monthSwitch" :startDate="startDate" />
 		</view>
 		<u-button text="确定" @click="btn" style='width: 200px;height: 50px;'
 			color="linear-gradient(to right, rgb(66, 83, 216), rgb(213, 51, 186))">
