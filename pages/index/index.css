@@ -1,0 +1,47 @@
+.example-body {
+	/* #ifndef APP-NVUE */
+	display: flex;
+	/* #endif */
+	flex-direction: row;
+}
+
+.calendar-button {
+	flex: 1;
+	font-weight: bold;
+	font-size: 32rpx;
+}
+
+.cycle {
+	margin-left: 30px;
+	display: inline-block;
+	width: 360px;
+}
+
+::v-deep .u-modal__content {
+	padding: 12px 25px 25px 25px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	min-height: 300px;
+	overflow: auto;
+	max-height: 500px;
+}
+
+.text-box {
+	width: 100%;
+	display: block;
+	margin-bottom: 20px;
+	display: flex;
+	background-color: #fff;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 15px;
+	color: #353535;
+
+}
+
+.active {
+	color: #0276fd;
+}

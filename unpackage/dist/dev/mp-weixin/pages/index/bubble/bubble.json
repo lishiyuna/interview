@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "泡泡",
+  "usingComponents": {
+    "u-line-progress": "/uni_modules/uview-ui/components/u-line-progress/u-line-progress",
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "u-modal": "/uni_modules/uview-ui/components/u-modal/u-modal",
+    "u-overlay": "/uni_modules/uview-ui/components/u-overlay/u-overlay"
+  }
+}
